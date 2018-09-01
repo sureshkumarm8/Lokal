@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            createFolder("Lokal");
+            createFolder("Picsum");
         }
     }
     public void createFolder(String fname){

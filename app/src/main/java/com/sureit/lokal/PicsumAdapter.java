@@ -147,7 +147,7 @@ public class PicsumAdapter extends RecyclerView.Adapter<PicsumAdapter.ViewHolder
         protected void onPostExecute(Bitmap image) {
             if(image != null){
                 try {
-                String myfile= Environment.getExternalStorageDirectory()+"/Lokal/"+filename+".png";
+                String myfile= Environment.getExternalStorageDirectory()+"/Picsum/"+filename+".png";
                 File f=new File(myfile);
                 if(f.exists())
                     f.delete();
